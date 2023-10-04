@@ -1,0 +1,126 @@
+/* curso do game, mostra uma raquete */
+
+html {
+    cursor: url(imagens/mata_mosquito.png), auto;
+}
+
+/* Estilo do body do game */
+
+body {
+    background: url(imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Estilo dos mosquito // cade mosquito tem um estilo dirente que sao gerado random */
+
+.mosquito1 {
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito2 {
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3 {
+    width: 90px;
+    height: 90px;
+}
+/* posição que os mosquito iram receber aleatoriamente */
+.ladoA {
+    transform: scaleX(1);
+}
+
+.ladoB {
+    transform: scaleX(-1);
+}
+/* Painel aonde contem as vidas e o cronometro do game */
+.painel {
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    color: #fff;
+    border-top: solid 1px #fff;
+    background-color: transparent;
+}
+
+.vidas {
+    float: left;
+}
+
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* irem ajeitar ainda mais fica na url fim_de_jogo */
+.button-voltar{
+    color: white;
+    background-color: rgb(255, 60, 60);
+}
+
+/* configuração de estilo global do button */
+
+button{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* estilo do button inicial do game */
+.button-iniciar{
+    position: relative;
+    left: 13px;
+    width: 150px;
+    color: aliceblue;
+    background-color: rgb(255, 62, 62);
+}
+
+/* Estilo do painel select no inicio do game */
+
+#nivel {
+    padding: 10px;
+    border: none;
+    background-color: rgb(227, 242, 242);
+    border-radius: 8px;
+}
+#normal {
+    color: green;
+}
+#dificil {
+    color: rgb(20, 54, 245);
+}
+#impossivel {
+    color: rgb(255, 1, 1);
+}
+
+
+
+
+
+/* Painel vitoria e fim de jogo */
+
+.button-reiniciar {
+    width: 150px;
+    color: #fff;
+    background-color: rgb(46, 42, 42);
+}
+
+.button-volta{
+    width: 150px;
+    position: relative;
+    left: 12px;
+    color: aliceblue;
+    background-color: rgb(255, 62, 62);
+}
+alert{
+    color: bisque;
+}
