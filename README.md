@@ -15,7 +15,7 @@
 
 <br>
 <div align="center"> 
-<a href="https://joonhpedro.github.io/jogos/Mata-Mosquito/vitoria.html" target="_blank"><img src="https://img.shields.io/badge/-MataMosquito-F4F100?style=for-the-badge&logo=github&logoColor=black"</a>
+<a href="joonhpedro.github.io/jogos/Mata-Mosquito/index.html" target="_blank"><img src="https://img.shields.io/badge/-MataMosquito-F4F100?style=for-the-badge&logo=github&logoColor=black"</a>
  
  </div>
  
